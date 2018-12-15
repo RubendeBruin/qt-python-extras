@@ -64,7 +64,6 @@ class urlActionPage(QtWebEngineWidgets.QWebEnginePage):
         return True
 
     def create_action_url(self, link_data):
-        self.action_data = list()
         self.action_data.append(link_data)
         i = len(self.action_data) - 1
 
